@@ -40,7 +40,7 @@
       width: 160px;
       max-width: 60%;
     }
-    h1, h2, h3 {
+    h2, h3 {
       margin: 0;
       color: #fff;
     }
@@ -212,6 +212,13 @@
       font-size: 0.8rem;
       color: #aaa;
     }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
     @media (max-width: 600px) {
       .service-card,
       .step,
@@ -234,7 +241,7 @@
 
   <header id="top">
     <!-- Logo file should be in the same repo as this HTML -->
-    <img src="Revline_Transparent_Logo.PNG" alt="Revline Mobile Auto Care Logo" />
+    <img src="Revline_Transparent_logo.PNG" alt="Revline Mobile Auto Care Logo" />
     <p>Built on torque &amp; trust.</p>
   </header>
 
@@ -328,17 +335,10 @@
     </p>
 
     <div class="form-container">
-      <!--
-        This form uses FormSubmit (https://formsubmit.co) so you can handle submissions
-        without a custom backend.
-        On first submission, FormSubmit will email you a confirmation link.
-      -->
+      <!-- This form uses FormSubmit (https://formsubmit.co) -->
       <form action="https://formsubmit.co/revlineautocare@gmail.com" method="POST">
-        <!-- FormSubmit options -->
         <input type="hidden" name="_subject" value="New Revline Quote Request">
         <input type="hidden" name="_captcha" value="false">
-        <!-- Optional: once you know your GitHub Pages URL and create thank-you.html, update this: -->
-        <!-- <input type="hidden" name="_next" value="https://YOUR_USERNAME.github.io/revline-site/thank-you.html"> -->
 
         <div class="form-row">
           <div class="form-group">
@@ -447,9 +447,13 @@
   </section>
 
   <footer>
+    <p>
+      <strong>Contact:</strong>
+      <a href="tel:+14803788167">(480) 378-8167</a> &middot;
+      <a href="mailto:revlineautocare@gmail.com">revlineautocare@gmail.com</a>
+    </p>
     <p>&copy; 2025 Revline Mobile Auto Care | Hurst, TX | Built on torque &amp; trust.</p>
     <p class="small">Labor only; parts billed at cost + markup. Weather may affect scheduling.</p>
   </footer>
 </body>
 </html>
-
